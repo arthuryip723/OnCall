@@ -1,7 +1,16 @@
-<main id="root">
-  <!-- TODO Build the skeleton here with header, main, and footer. -->
-  <div ng-app="">
-    <p>Name: <input type="text" ng-model="name"></p>
-    <p ng-bind="name"></p>
-  </div>
+<!-- TODO Build the skeleton here with header, main, and footer. -->
+<div ng-app="">
+  <p>Name: <input type="text" ng-model="name"></p>
+  <p ng-bind="name"></p>
+</div>
+<header>
+  <!-- Make the header associated with another controller -->
+  This is header
+</header>
+<!-- Use an ng-view here. -->
+<!-- Build the router, show a simple page in the ng-view -->
+<main ng-view>
 </main>
+<footer>
+  This is footer
+</footer>
