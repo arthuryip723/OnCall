@@ -1,1 +1,3 @@
-angular.module('babeList', []);
+angular.module('babeList', [
+  'ngRoute',
+]);

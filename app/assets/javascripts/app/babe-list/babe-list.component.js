@@ -6,6 +6,7 @@ angular.
       '<ul>' +
         '<li ng-repeat="babe in $ctrl.babes">' +
           // '<span>{{ babe.name }}</span>' +
+          // '<a href="#!/babes/{{ babe.id }}">{{ babe.name }}</a>' +
           '<a href="#/babes/{{ babe.id }}">{{ babe.name }}</a>' +
         '</li>' +
       '</ul>',

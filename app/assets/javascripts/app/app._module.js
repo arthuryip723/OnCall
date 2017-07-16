@@ -1,7 +1,9 @@
 // This looks like some registration for the angular.
 // var onCallApp =
 angular.module('onCallApp', [
-  'babeList'
+  'ngRoute',
+  'babeList',
+  'babeDetail'
 ]);
 
 // onCallApp.controller('BabeListController', function BabeListController($scope) {

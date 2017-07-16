@@ -12,6 +12,7 @@
 //
 // NOTE Looks like I have to require angular first.
 //= require angular
+//= require angular-route
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
