@@ -10,7 +10,7 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-// NOTE Looks like I have require angular first.
+// NOTE Looks like I have to require angular first.
 //= require angular
 //= require jquery
 //= require jquery_ujs
