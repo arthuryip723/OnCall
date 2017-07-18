@@ -1,6 +1,7 @@
 // This looks like some registration for the angular.
 // var onCallApp =
 angular.module('onCallApp', [
+  'templates',
   'ngRoute',
   'babeList',
   'babeDetail'
