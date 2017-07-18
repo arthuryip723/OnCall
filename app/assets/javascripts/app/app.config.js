@@ -1,5 +1,3 @@
-
-
 angular.
   module('onCallApp').
   config(['$locationProvider', '$routeProvider',
